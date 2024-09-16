@@ -37,7 +37,7 @@ int main() {
     selectionSort(arr);
 
     // Print sorted array
-    cout << "Sorted array by the second element:" << endl;
+    cout << "Sorted array by the first element:" << endl;
     for (const auto& p : arr) {
         cout << "(" << p.first << ", " << p.second << ") ";
     }
